@@ -1,5 +1,5 @@
 var express = require('express');
-
+var fs = requite('fs');
 var app = express.createServer(express.logger());
 
 app.get('/', function(request, response) {
